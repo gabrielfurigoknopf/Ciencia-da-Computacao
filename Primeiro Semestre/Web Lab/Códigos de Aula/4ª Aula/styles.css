@@ -1,0 +1,159 @@
+
+/* Exemplo de Definição de estilo pega TAG. Todas as tags terão esse estilo inicialmente */
+p{
+    color:green;
+    font-family: Arial;
+}
+
+body{
+    padding: 20px;
+}
+
+
+/* Classes e Ids */
+/* classe identificada por .NOMEDACLASSE  Exemplo abaixo*/
+/* #id identificado por #NOMEDOID  Exemplo abaixo*/
+
+.meu-paragrafo{
+    background-color: black;
+    color:red;
+}
+
+#titulo-principal{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Helvetica;
+}
+
+/* Selecionar mais de um elemento para aplicar estilos. Seleção em Lista. 
+Nesse exemplo vamos comentar para não afetar os demais exemplos
+p,h1{
+    border-bottom: 1px solid red;
+}
+*/
+
+/* Cores */
+        .nome-da-cor{
+            color:blue;
+        }
+
+        /* forma mais usual*/
+        .hexa{
+            color: #3FF40A;
+            background-color: #333333;
+        }
+
+        .rgb{
+            color:rgb(50, 56, 56);
+        }
+
+/* Fontes */
+    .fonte-um{ /* Tipo da fonte */
+        font-family: Georgia;
+        font-size: large;
+    }
+    .fonte-dois{ /* Tipo da fonte */
+        font-family: Helvetica;
+    }
+
+    .fonte-grande{ /* Tamanho da fonte */
+        font-size: 32px;
+    }
+
+    .fonte-pequena{ /* Tamanho  da fonte */
+        font-size: 12px;
+    }
+
+    .peso-fonte{  /* Espessura da fonte */
+        font-weight:700;
+    }
+
+    .fonte-italico{
+        font-style: italic;
+    }
+
+/* Box Model */
+.box-model{
+    width:200px;
+    height: 100px;
+    border: 1px solid red; 
+    padding: 20px; /* Cria um respiro, espaçamento  */
+    margin: 20px;
+     /* margin-left: 100px; Passa exemplo com margin top e left 
+    margin-top: 200px;*/
+
+    text-align: center; /* Centralizar o texto*/
+
+}
+
+/*Links */ 
+
+    .decoracao{  /* Remove o sublinhado que tem por padrão em um link */
+        text-decoration:none;
+    }
+
+    .visitado:visited{  /* visited é uma propriedade de links*/
+        color: pink;
+
+    }   
+    .estilo-hover:hover{ /* hover é uma propriedade de css ao passar o mouse por cima */
+        background-color:red;
+    }
+
+/*Link em botão */   
+/* Estilizamos um link para transformá-lo em um botão*/
+    .link-botao{
+        background-color:green;
+        border: 3px solid blue;
+        border-radius:5px;
+        color:white;
+        text-decoration: none;
+        width:120px;
+        padding: 12px;
+        margin:20px;
+        text-align: center;
+        display:block;
+    }
+
+    .link-botao:hover{
+        background-color: blue;
+    }
+
+
+/* Lista */ 
+.lista{ /* Removemos os circulos dos itens, podemos colocar outros estilos como numeros, numeros romanos e etc*/
+    list-style:none;
+}
+
+/*Posicionamento Veremos melhor nos Exemplos sobre Positions*/
+
+.elemento-fixo{
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #3FF40A;
+    border-bottom: 1px solid purple;
+    color: white;
+
+}
+
+/* Visibilidade */
+.texto-dois{
+    display: none;
+}
+
+.texto-tres{
+    visibility: hidden;
+}
+
+.texto-quatro{
+    display: block;
+}
+.menu{
+    display: inline;
+    margin:2px;
+}

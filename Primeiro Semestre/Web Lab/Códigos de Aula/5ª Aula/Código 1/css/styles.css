@@ -1,0 +1,60 @@
+/*Personalizando a static!*/
+.static{
+    position: static;
+    height: 70px;
+    background-color: brown;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+}
+
+/*Personalizando o relative!*/
+.relative{
+    position: relative;
+    height: 70px;
+    background-color: orange;
+    padding: 20px;
+    top: 10px;
+    left: 30px;
+    color: wheat;
+}
+
+/*Personalizando o absolute*/
+.absolute{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    background-color: coral;
+    border:  1px solid black;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+/*Personalizando o fixed!*/
+.fixed{
+    position: fixed;
+    height: 70px;
+    background-color: crimson;
+    border: 1px solid black;
+    top: 10px;
+    left: 100px;
+    color: aliceblue;
+}
+
+.sticky{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border: 1px solid black;
+    top: 10px;
+    left: 100px;
+    color: darksalmon;
+}
+
+/*Apenas para testar o fixed e sticky*/
+html{
+    padding-bottom: 2000px;
+}
