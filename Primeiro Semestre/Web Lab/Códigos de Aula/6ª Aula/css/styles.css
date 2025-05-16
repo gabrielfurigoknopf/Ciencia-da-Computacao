@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+header{
+    background-color: green;
+    color: white;
+    padding: 20 px;
+    text-align: center;
+    border-bottom: 3 px solid #2a7a2a;
+    position: sticky;
+    top: 0;
+}
